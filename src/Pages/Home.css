@@ -1,0 +1,15 @@
+
+
+
+.marquee--reverse .marquee__group[data-v-0516ec98] {
+    animation-direction: reverse;}
+
+    .marquee__group {
+        display: flex    ;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+        min-width: 100%;
+        animation: scroll-x-0516ec98 30s linear infinite;
+    }

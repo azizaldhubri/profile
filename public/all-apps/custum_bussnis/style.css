@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #150830;
+}
+.head{margin: auto;
+    margin-top: 50px;
+       width: 70%;
+    border: 2px white  solid;
+
+}
+a{font-size: 25px;
+color: red;
+margin-left:  20px;
+font-weight: bold;}
+input{
+    /* text-transform: lowercase; */
+    width: 74%;
+    background-color: rgb(158, 158, 27);
+    height: 30px;
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.top{width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+display: flex;
+
+justify-content: space-between;
+}
+.top div {width: 45%;
+   
+    display: flex;
+    align-items: center;
+   }
+  
+.buttom{width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+display: flex;
+
+justify-content: space-between;}
+
+.buttom div {width: 45%;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    align-items: center;
+   }
+
+   .control{width: 50%;
+    display: flex;
+margin: auto;
+margin-top: 40px;
+border: 2px white  solid;
+
+}
+button{
+    width: 100%;
+height: 35px;
+border-radius: 5px;
+font-size: 20px ;
+color: yellow ;
+background-color: #2554C7;
+cursor: pointer;
+outline: none;
+border: none;
+margin: 2px;
+padding: 5px;
+}
+#city {margin-left: 5%;}
+
+
+button:hover{
+    color: rgb(9, 5, 61) ;
+    background: #0b5a92;
+}
+
+
+.budy{
+    margin: auto;
+    margin-top: 40px;
+       width: 70%;
+    border: 2px white  solid;
+}
+table{width: 100%;direction: ltr;
+    text-transform:uppercase;
+    font-size: 15px;
+font-weight: bold;
+/* background: aliceblue; */
+color: black;
+text-align: center;
+
+
+}
+/* table header tr{display: flex;
+justify-content: space-between;
+
+} */
+.budy table .theadr{
+    outline: none;
+    border: none;text-decoration: none;
+background: rgb(177, 177, 170);
+font-size: 21px;
+font-weight: bold;
+
+}
+.serch{width: 50%;
+margin: auto;
+margin-top: 30px;
+display: flex;
+justify-content: center;}
+
+
+tbody {outline: none;
+    border: none;
+    /* border:2px solid rgb(76, 238, 7); */
+margin-bottom: 20px;
+background: rgb(0, 255, 30);
+
+} 

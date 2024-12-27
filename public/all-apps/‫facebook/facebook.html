@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+      <div class="left_navbar">
+          <img src="images/logo2.png" alt="">
+          <ul>
+              <li><img src="images/notification.png" alt=""></li>
+              <li><img src="images/inbox.png" alt=""></li>
+              <li><img src="images/video.png" alt=""></li>
+
+
+          </ul>
+          <!-- <button id="delet" onclick="delet()">delet</button> -->
+      </div>
+      <a id="lnk" href="http://localhost:3000/">رجوع</a>
+
+
+      <div class="right_navbar">
+          <div class="search">
+
+            <img src="images/search.png" alt="">
+              <input type="text" placeholder="Search">
+          </div>
+          <div class="profil ">
+             
+              <div class="state"></div>
+              
+          </div>
+      </div>
+
+    </div>
+    <div class="container">
+        <div class="budy_left">
+            <div class="budy_left_top">
+                <ul>
+                    <li><img src="images/news.png" ><a href="#">Last news</a></li>
+                    <li><img src="images/friends.png" ><a href="#">frindes</a></li>
+                    <li><img src="images/group.png" ><a href="#">group</a></li>
+                    <li><img src="images/marketplace.png" ><a href="#">marketplace</a></li>
+                    <li><img src="images/watch.png" ><a href="#">watch</a></li>
+                  
+                </ul>
+                <a href="#">See more</a>
+
+            </div>
+            <div class="budy_left_bottom">
+                <hr>
+                <p>your shortcuts</p>
+                <ul>
+                    <li><img src="images/shortcut-1.png" alt=""><a href="#">Learn python</a></li>
+                    <li><img src="images/shortcut-2.png" alt=""><a href="#">Learn java</a></li>
+                    <li><img src="images/shortcut-3.png" alt=""><a href="#">Learn C++</a></li>
+                    <li><img src="images/shortcut-4.png" alt=""><a href="#">Learn HTML</a></li>
+
+
+                </ul>
+
+
+            </div>
+         
+
+
+        </div>
+        
+
+
+        <div class="body_post" id="body_post">
+            <div class="gelary">
+                <div class="gelary_img">
+                   
+                    <div class="profil">
+                        <img src="images/member-1.png">
+                        <div class="state"></div>
+
+                    </div>
+
+                </div>
+                <div class="gelary_img p2">
+                    <div class="profil">
+                        <img src="images/member-2.png">
+                        <div class="state"></div>
+
+                    </div>
+
+                </div>
+                <div class="gelary_img p3">
+                    <div class="profil">
+                        <img src="images/member-3.png" >
+                        <div class="state"></div>
+
+                    </div>
+
+                </div>
+                <div class="gelary_img p4">
+                    <div class="profil">
+                        <img src="images/member-4.png" alt="">
+                        <div class="state"></div>
+
+                    </div>
+
+                </div>
+                <div class="gelary_img p5">
+                    <div class="profil">
+                        <img src="images/member-5.png" alt="">
+                        <div class="state"></div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="post">
+                <div class="part_top" id="part_top">
+                    <div class="profil ">
+                        
+                        <div class="state"></div>
+                                               
+                    </div>
+                    <div class="n_post">
+                        <h5>Aziz aldhubri</h5>
+                       
+                    </div>
+                    
+
+                </div>
+                
+                 <div class="part_bottom"> 
+                     <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                    
+                    <textarea name="" id="text_area" rows=""  placeholder="Write Something ..."> </textarea> 
+                              
+                   
+                               
+            
+                    
+                    
+                    <div class="contain_post">
+                        <div class="share">
+                            <div class="page_share"></div>
+                            <div class="title_share">
+                                <p>share</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="comment">
+                            <div class="page_comment"></div>
+                            <div class="title_comment">
+                                <p>comment</p>
+                            </div>
+                        </div>
+
+
+                        <div class="like">
+                            <div class="page_like"></div>
+                            <div class="title_like">
+                                <p>like</p>
+                            </div>
+                        </div>
+
+
+
+
+
+                       
+                       <button onclick="add_post()">add</button>
+                    </div>
+
+                </div> 
+            </div>
+            <div class="budy_content" id="budy_content">
+
+            </div>
+            
+            
+           
+
+        </div>
+
+
+        <div class="budy_right">
+            <div class="budy_right_budy">
+                <div class="title">
+                    <p>Event</p>
+                    <a href="#">SEE More</a>
+                </div>
+                <div class="event" draggable="true">
+                    <div class="event_left">
+                        <h3>20</h3>
+                        <span>march</span>
+
+                    </div>
+                    <div class="event_right">
+                        <h2>Birthday</h2>
+                        <p>ali aldhubri,sanaa</p>
+                        <a href="#">See more</a>
+                    </div>
+
+                    
+
+                </div>
+                <div class="event" draggable="true">
+                    <div class="event_left">
+                        <h3>10</h3>
+                        <span>april</span>
+
+                    </div>
+                    <div class="event_right">
+                        <h2>Birthday</h2>
+                        <p>aziz aldhubri,sanaa</p>
+                        <a href="#">See more</a>
+                    </div>
+
+                   
+
+                </div>
+                <div class="event"draggable="true">
+                    <div class="event_left">
+                        <h3>30</h3>
+                        <span>mayo</span>
+
+                    </div>
+                    <div class="event_right">
+                        <h2>Birthday</h2>
+                        <p>omerrrrrrr gasem,adn</p>
+                        <a href="#">See more</a>
+                    </div>
+
+                   
+
+                </div>
+                <div class="title">
+                    <p>Advertisment</p>
+                    <a href="#">Close</a>
+                </div>
+                <div class="advertisment">
+
+                    <img src="images/advertisement.png" alt="">
+                </div>
+                <div class="class_part3">
+                    <div class="title">
+                        <p>Conversion</p>
+                        <a href="#">Hide</a>
+                    </div>
+                    <div class="conv">
+                        <div class="profil"><img src="images/member-1.png" alt="">
+                            <div class="state"></div>
+                        </div>
+                        <p>lina</p>
+
+                    </div>
+                    <div class="conv">
+                        <div class="profil"><img src="images/member-2.png" alt="">
+                            <div class="state"></div>
+                        </div>
+                        <p>omer</p>
+
+                    </div>
+                    <div class="conv">
+                        <div class="profil"><img src="images/member-3.png" alt="">
+                            <div class="state"></div>
+                        </div>
+                        <p>asma</p>
+
+                    </div>
+                    <div class="conv">
+                        <div class="profil"><img src="images/member-4.png" alt="">
+                            <div class="state"></div>
+                        </div>
+                        <p>ali</p>
+
+                    </div>
+                    
+
+
+                </div>
+
+            </div>
+
+
+           
+
+
+        </div>
+    </div>
+
+<script src="index.js"></script>
+    
+</body>
+</html>
