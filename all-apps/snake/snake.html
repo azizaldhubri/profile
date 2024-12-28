@@ -1,0 +1,31 @@
+
+<html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <!-- onclick="select_speed(this.value)" -->
+    <div class="control">
+        <span>اختر مستوى اللعبة</span>
+        <button onclick="select_speed('سهل')"  id="speed" >سهل</button>
+        <button onclick="select_speed('متوسط')"  id="speed">متوسط</button>
+        <button onclick="select_speed('صعب')"  id="speed">صعب</button>
+        <span id="spn">المستوى السهل</span>
+        <button onclick="stop()"  id="stop">ايقاف</button>
+        <button onclick="start()"  id="start">تشغيل</button>
+        <a href="http://localhost:3000/">رجوع</a>
+    
+
+    </div>
+    
+    <div id="game-board" class="game-board"></div>
+    <h4 id="note">اضغط احد الاسهم لبدء اللعبة</h4>
+    
+    <script src="snake.js" ></script>
+</body>
+</html>

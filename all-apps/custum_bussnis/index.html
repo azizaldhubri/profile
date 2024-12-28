@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="top">
+            <div >
+                <label for="name">Customer Name</label>
+                <input type="text" id="name">
+                
+            
+              
+            </div>
+            <div>
+                <label for="address">address</label>       
+            <input type="text" id="address">
+               
+               
+            </div>
+            
+            
+
+        </div>
+        <div class="buttom">
+            <div>
+                
+                <label for="phone">Mobail Number </label>
+                <input type="number" id="phone">
+                
+          
+        </div> 
+           <div>
+            <label for="city"> City    </label>
+               <input type="text" id="city">
+              
+
+           </div>           
+
+       </div>
+
+       
+    </div>
+    <a  href="http://localhost:3000/"  target="_blank">رجوع</a>
+    <div class="control">
+        <!-- <button id="search">Search</button> -->
+        <button id="deletAll" >DeletAll</button>
+        <!-- <button id="delet">delet</button> -->
+        <!-- <button id="update">update</button> -->
+        <button id="save">save</button>
+        
+    </div>
+    <div class="serch">
+        <input  onkeyup="Searche(this.value)" type="text" placeholder="Search by name" id="srch">
+    </div>
+     
+    <div class="budy" style="overflow-x: auto">
+        <table>
+            
+            <thead class="theadr">
+                <tr >
+                    <td>ID</td>
+                    <td>Customer Name</td>
+                    <td>Mobail Number</td>
+                    <td> Address </td>
+                    <td>City </td>
+                    <td> Update </td>
+                    <td>Delet</td>
+                    
+                    
+                </tr>
+            </thead>
+         
+            <tbody class="bdy">
+             
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav_market">
+            
+            <div class="picpest" >
+                <img src="img/images.png" alt="">
+                <span id="amount">0</span>
+            </div>
+            <a href="#" onmouseenter="hidePurches()">Mobiles</a>
+            <a href="#">Tv</a>
+            <a href="#">Book</a>
+            <input type="text" placeholder="Search ... " onkeyup="search_pruduct(this.value)">
+           
+           
+        </div>
+
+    </nav>
+    <div class="my_mysales">
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>delet</th>
+                </tr>
+            </thead>
+            <tbody class="t_body">
+            </tbody>
+                  
+        </table>
+        <div class="total"><span class="total-Purches"></span></div>        
+       
+    </div>
+        
+        
+    <div id="container" class="container" >
+               
+        <div class="user_display">
+            <!-- <img src="img/1.jpg" alt=""> -->
+            <div class="add_product">
+                <div class="inptImg">
+                         <input  type="file"  onchange="displayImg(event)"  accept="image/*" id="imgy" style="display:none;">
+                                         
+                         <div id="info" onclick="document.getElementById('imgy').click()">Enter New Product
+                         </div>
+                 </div>
+                     <input type="text" id="name_product" placeholder="name_product">
+                     <input type="number" id="price_product" placeholder="price_product">
+                     <button id="save">Save</button>
+                         
+                         
+             </div>
+             <div class="delet_product">
+                 <p>Enter name product to delet</p>
+                 <input id="inpt_delet" type="text" onkeyup="srch_product(this.value)" placeholder="Enter name product">
+                 <button id="delete">delete</button>
+             <a href="http://localhost:3000/"><h3> رجوع</h3>  </a>
+             </div>
+            
+                                                             
+                 
+        </div>
+        <div class="show_product">
+        </div>
+  </div> 
+
+   
+    
+    <script src="index.js"></script>
+</body>
+</html>
