@@ -101,8 +101,8 @@ export default function Myworks(){
                                
                 </div>
 
-                <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12  border  '>
-                     <p className='text-end '>  بناء مشروع عملي لمهام الموظفين ولكن لم اعرض رابط المشروع نظرا لحقوق الملكية 
+                <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12    '>
+                     <p className='text-end border'>  بناء مشروع عملي لمهام الموظفين ولكن لم اعرض رابط المشروع نظرا لحقوق الملكية 
                    لدى الشركة التي تستخدم الموقع
                   </p>  
                                     
