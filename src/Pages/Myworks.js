@@ -94,10 +94,10 @@ export default function Myworks(){
                 </>}
                 {(isSelected==='React'|| isSelected==='All') &&
               <>
-                <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12    '>
-                  <img src={require('../img1/react1.1.JPG')} style={{width:'90%'}}alt=''></img>
-                  <p>e-commerce with  React</p>                                                
-                  <Link to="https://ecommerce-tasks-5.vercel.app/" target="_blank" rel="noopener noreferrer">e-commerce</Link>                   
+                <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12  border  '>
+                   <p className='text-end '>
+                    بناء مشروع عملي لمهام الموظفين ولكن لم اعرض رابط المشروع نظرا لحقوق الملكية 
+                  </p>                 
                 </div>
 
                 <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12    '>
