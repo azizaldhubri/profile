@@ -102,14 +102,14 @@ export default function Myworks(){
                 </div>
 
                 <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12    '>
-                     <p className='text-end border p-4'>  بناء مشروع عملي لمهام الموظفين ولكن لم اعرض رابط المشروع نظرا لحقوق الملكية 
+                     <p className='text-end border p-5'>  بناء مشروع عملي لمهام الموظفين ولكن لم اعرض رابط المشروع نظرا لحقوق الملكية 
                    لدى الشركة التي تستخدم الموقع
                   </p>  
                                     
                 </div>
                       <div className='px-3 py-3 col-lg-6 col-md-12 col-sm-12 col-12    '>
                    <img src={require('../img1/hr-aziz.JPG')} style={{width:'90%'}}alt=''></img>
-                  <p>Hr with React قيدالانشاء</p>                                                
+                  <p className='  mt-2'>Hr with React قيدالانشاء</p>                                                
                                 
                                
                 </div> 
